@@ -1,0 +1,163 @@
+/****************Tag elements****************/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 1rem;
+  color: #40514E;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  text-align: center;
+  line-height: 1;
+  /*100% = 16px --> 90px = 562.5%*/ /*1rem = 16px* --> 5.625rem = 90px*/ /*rem means to reffer to the root em and not the parent em - so the font size won't get affected ftom the parent*/
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr{
+  border-style: none;
+  border-top: 10px dotted #EAF6F6;
+  width: 5%;
+  margin: 100px auto;
+}
+
+/****************Class elements****************/
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container{
+  margin: 100px auto;
+}
+.profile {
+  text-align: left;
+}
+
+.Profile_picture {
+  display: block;
+  position: relative;
+  text-align: center;
+  margin-top: 20px;
+}
+.Product_Management{
+width: 10%;
+float: left;
+margin-right: 30px;
+}
+
+.Research{
+width: 10%;
+float: left;
+margin-right: 30px;
+}
+
+.Self_intro {
+  text-align: center;
+  width: 30%;
+  margin: auto;
+  line-height: 2;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 600px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 600px;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.contact-me{
+  margin: 50px;
+  line-height: 2;
+}
+
+.contact-msg{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn{
+  text-decoration: none;
+  font-size: 1rem;
+  display: inline-flex;
+  position: relative;
+  background-color: #11999E;
+  width: auto;
+  color: #fff;
+  border: none;
+  overflow: hidden;
+  transition: all .2s;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  white-space: nowrap;
+  border-radius: 10px;
+  }
+
+.btn:hover{
+  background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+  background-color:#408c99;
+}
+
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.contact-me-btn {
+  margin: 5px;
+}
+
+.bottom-container{
+  padding: 50px 0 20px;
+  background-color: #66BFBF;
+}
+
+.footer-link{
+  text-decoration: none;
+  font-weight: 600;
+  line-height: 2;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
