@@ -3,58 +3,49 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Roei Maaravi</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="icon" href="favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
+  <title>Drum Kit</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
 </head>
 
 <body>
-  <div class="top-container">
-    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
-    <h1>I'm Roei.</h1>
-    <h2>a Product Manager.</h2>
-    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
-    <img class="mountain" src="images/mountain.png" alt="mountain-img">
-  </div>
-  <div class="middle-container">
-    <div class="profile">
-      <span class="Profile_picture"><img src="images\profile picture.png" alt="Profile picture"></span>
-      <h2>Hello.</h2>
-      <p class="Self_intro">I'm a productmanager. <br>
-        I currently work at Glassbox Digital, building an eco system that will enable our customers to exploit the full potential of their tech stack. <br>
-      </p>
-    </div>
-    <hr>
-    <div class="skills">
-      <h2>My Skills.</h2>
-      <div class="skill-row">
-        <img class="Product_Management" src="images\development.png" alt="Product">
-        <h3 class="prod_heading">Product Management</h3>
-        <p class="prod_skill_desc">Guiding a cross-functional team through the entire strategic and tactical product lifecycle, from ideation and roadmap to development, refinement, ongoing optimization, and growth.</p>
-      </div>
-      <div class="skill-row">
-        <img class="Research" src="images\purpose.png" alt="Research">
-        <h3 class="Research_heading">Research</h3>
-        <p class="Research_skill_desc">Using various methodologies and sources in order to obtain recent and relevant data about new features and competition.</p>
-      </div>
-    </div>
-    <hr>
-    <div class="contact-me">
-      <h2>Get In Touch</h2>
-      <h3>If you like what you see</h3>
-      <p class="contact-msg">Looking for a skilled and ambitious product manager? Like what you see? <br>Let's talk then about how I can contribute to your cause</p>
-      <a class="btn" href="mailto:roeim87@gmail.com"><span class="contact-me-btn">CONTACT ME</span></a>
-    </div>
+  <script type="text/javascript">
+    var utag_data = {}
+  </script>
+
+  <!-- Loading script asynchronously -->
+  <script type="text/javascript">
+    (function(a, b, c, d) {
+      a = 'https://tags.tiqcdn.com/utag/glassbox/main/dev/utag.js';
+      b = document;
+      c = 'script';
+      d = b.createElement(c);
+      d.src = a;
+      d.type = 'text/java' + c;
+      d.async = true;
+      a = b.getElementsByTagName(c)[0];
+      a.parentNode.insertBefore(d, a);
+    })();
+  </script>
+
+
+
+  <h1 id="title">Drum 🥁 Kit</h1>
+  <div class="set">
+    <button class="w drum">w</button>
+    <button class="a drum">a</button>
+    <button class="s drum">s</button>
+    <button class="d drum">d</button>
+    <button class="j drum">j</button>
+    <button class="k drum">k</button>
+    <button class="l drum">l</button>
   </div>
 
+  <script src="index.js" charset="utf-8"></script>
 
-  <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/in/roei-maaravi-38885264/">LinkedIn</a>
-    <p class="copyright">© 2018 Roei Maaravi.</p>
-  </div>
-
-
+  <footer>
+    Made with ❤️ in London.
+  </footer>
 </body>
 
 </html>
